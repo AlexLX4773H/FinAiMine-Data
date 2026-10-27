@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Delta Lake warehouse data (large binary files)
+delta_warehouse/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Spark logs & temp
+spark-events/
+*.log
+logs/
+
+# Checkpoints
+checkpoints/
+
+# Raw data downloads (re-fetchable)
+raw_data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
